@@ -9,46 +9,42 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import ar.edu.unju.fi.Diaz3283Tp5Application;
-import ar.edu.unju.fi.model.Usuario;
+import ar.edu.unju.fi.model.Noticia;
 
 /**
- * 
  * @author Diaz, Sebastián Darío - L.U.:3283
- * Clase IUsuarioImp, está clase es la que puede implementar los métodos de la Interface IUsuario.
  *
  */
-
-@Repository("usuarioImp")
-public class UsuarioImp implements IUsuario {
+@Repository("noticiaImp")
+public class NoticiaImp implements INoticia {
 
 	@Autowired
-	private Usuario usuario;
-
+	private Noticia noticia;
+	
 	public static Logger LOG = LoggerFactory.getLogger(Diaz3283Tp5Application.class);
-
+	
 	@Override
 	public void Guardar() {
 		// TODO Auto-generated method stub
-		LOG.info("El usuario fue guardado: " + usuario.getApellidoUsuario() + ", " + usuario.getNombreUsuario());
-
+		LOG.info("La noticia fue guardada: " + noticia.getTituloNoticia() + ", " + noticia.getResumenNoticia());
 	}
 
 	@Override
-	public Usuario mostrar() {
+	public Noticia mostrar() {
 		// TODO Auto-generated method stub
-		LOG.info("Mostrar los datos del usuario.");
-		return usuario;
+		LOG.info("Mostrar los datos de la noticia.");
+		return noticia;
 	}
 
 	@Override
-	public void elminiar() {
+	public void eliminar() {
 		// TODO Auto-generated method stub
-		LOG.info("Se eliminó el usuario de la BD.");
+		LOG.info("Se eliminó la noticia de la BD.");
 
 	}
 
 	@Override
-	public Usuario modificar() {
+	public Noticia modificar() {
 		// TODO Auto-generated method stub
 		return null;
 	}
