@@ -9,13 +9,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * @author sebas
+ * 
+ * @author Diaz, Sebastián Darío - L.U.:3283
+ * Clase Cuota, representa a una cuota que un usuario debe pagar.
  *
  */
 @Component
-/*
- * Clase cuota, representa a una cuota que un usuario debe pagar.
- */
 public class Cuota {
 	//Atributo tipo long que representa al identificador de la clase.
 	private long idCuota;

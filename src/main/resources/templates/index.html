@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>PRINCIPAL</title>
+<link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+
+	<div id="contenedor">
+		<header>
+			<h1>Liga de futbol Profesional</h1>
+		</header>
+
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="fixture.html" target="_blank">Fixture y
+						resultados</a></li>
+				<li><a href="equipos.html" target="_blank">Equipos</a></li>
+				<li>
+					<div id="welcome">
+						<h4 th:text=" 'Bienvenido! ' + ${usuario}  "></h4>
+					</div>
+				</li>
+
+
+			</ul>
+			<!-- <div id="welcome">
+				<h4 th:text=" 'Bienvenido! ' + ${usuario}  "></h4>
+			</div> -->
+		</nav>
+
+		<section id="contenido">
+			<h2 style="text-align: center; background-color: #4BACE0">Noticias</h2>
+			<br />
+			<section class="flexbox">
+				<div id="noticia1">
+					<img id="imagen" src="img/1.jpg"> <br>12/03/2020 <br>
+					<br> Nueva noticia de los partidos suspendido en cuarentena
+				</div>
+
+				<div id="noticia2">
+					<img id="imagen" src="img/2.jpg"> <br> 13/03/2020 <br>
+					<br> Repeticion de la transmision en vivo de la final de la
+					copa anual de profesionales
+				</div>
+
+				<div id="noticia3">
+					<img id="imagen" src="img/3.jpg"> <br>20/03/2020 <br>
+					<br> Reprogramacion de sorteos para las proximas fechas
+				</div>
+			</section>
+		</section>
+
+		<aside id="auspicio">
+			<h2 style="text-align: center; background-color: #4BACE0">Auspiciantes</h2>
+			<br></br> <img id="auspicio-1" src="img/aus1.png"> <br></br> <img
+				id="auspicio-1" src="img/aus2.png"> <br></br> <img
+				id="auspicio-1" src="img/aus3.png">
+		</aside>
+
+		<footer>
+			<h2>Avda. pedro Ortiz de Zarate N° 455 - Tel 388 4789555</h2>
+		</footer>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+

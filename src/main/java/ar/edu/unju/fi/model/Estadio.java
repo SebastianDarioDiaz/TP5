@@ -8,14 +8,11 @@ import java.time.LocalDate;
 import org.springframework.stereotype.Component;
 
 /**
- * @author sebas
- *
+ * 
+ * @author Diaz, Sebastián Darío - L.U.:3283
+ * Clase Estadio, representa a un estadio de futbol en el mundo real.
  */
 @Component
-/**
- * Clase Estadio, representa a un estadio de futbol en el mundo real.
- *
- */
 public class Estadio {
 
 	//Atributo que guarda el nombre del estadio.

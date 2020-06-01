@@ -8,14 +8,12 @@ import java.time.LocalDate;
 import org.springframework.stereotype.Component;
 
 /**
- * @author sebas
- *
- */
-@Component
-/**
+ * 
+ * @author Diaz, Sebastián Darío - L.U.:3283
  * Clase Usuario, esta clase representa a un usuario de esta aplicacion en el mundo real.
  *
  */
+@Component
 public class Usuario {
 
 	//Atributo de tipo long que contien la clave principal del usuario.

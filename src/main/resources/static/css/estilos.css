@@ -1,0 +1,210 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background: #999999;
+	color:#ffffff;
+}
+
+#contenedor{
+	width:960px;
+	margin:auto;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+header{
+	height:150px;
+	background: #1C85BE;
+}
+
+header h1{
+	color : white;
+	font-color: black;
+	font-size:50px;
+	text-align: center;
+	line-height: 150px;
+}
+
+nav{
+	background: #2291ff;
+	height: 40px;
+}
+
+nav h2{
+	font-size:40px;
+	text-align: center;
+	line-height: 60px;
+}
+
+h2{
+	padding : 10px;
+	text-align: center; 
+	background-color: #4BACE0;
+	color: black;
+}
+
+#contenido{
+	width:600px;
+	height:500px;
+	background: #D0EAF8;
+	float: left;
+	margin-top:10px;
+	margin-bottom:10px;
+	overflow: scroll;
+}
+
+
+#club{
+	color: black;
+	text-align: justify;
+	font-size:18px;
+	font-weight:100;
+	margin-top:20px;
+}
+
+#fixture{
+	text-align: center;
+	
+}
+#equipo{
+	width:150px;
+	heigth:150px;
+	float:left;
+	margin-right:20px;
+	margin-bottom:20px;
+}
+#auspicio-1{
+	width:200px;
+	heigth:200px;
+	align: center;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#imagen{
+	height:100px;
+	width: 120px;
+	align-self: auto;
+	
+}
+#escudos{
+	height:50px;
+	width: 50px;
+}
+
+#sape{
+	background: blue:
+}
+
+aside{
+	width:350px;
+	height:500px;
+	background: #D0EAF8;
+	margin-top:10px;
+	margin-bottom:10px;
+	float:right;
+}
+
+footer{
+	background: #1C85BE;
+	height:40px;
+	clear: both;
+}
+
+footer h2{
+	color :white;
+	text-align: center;
+	text-size:30px;
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding:10px;
+}
+
+
+table {     
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;    
+    margin: 30px;     
+    width: 480px; 
+    text-align: center;      
+   
+    }
+
+th {     
+	font-size: 13px;     
+	font-weight: normal;     
+	padding: 8px;     
+	background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: #039; 
+    }
+
+td {    
+	padding: 8px;     
+	background: #e8edff;     
+	border-bottom: 1px solid #fff;
+    color: #669;    
+    border-top: 1px solid transparent; }
+
+tr:hover td { 
+	background: #d0dafd; 
+	color: #339; 
+	}
+
+
+.flexbox{
+	background-color:nine;
+	border: nine;
+	margin: 20px;
+	color: black;
+		
+	display: box;
+	box-orient: horizontal;
+	
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+	display: -moz-box;
+	-moz-box-orient: horizontal;
+}
+.flexbox > div{
+	box-flex: 1;
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+}
+.contenedor-columnas{
+	width: 100%;
+	margin: auto;
+}
+.columnasx3{
+	width: 33.333%;
+	float: left;
+}
+#noticia1{
+	
+	padding: 20px;
+	margin: 10px;
+	background-color: #ffffff;
+	border: 2px solid blue;
+}
+#noticia2{
+	
+	padding: 20px;
+	margin: 10px;
+	background-color: #ffffff;
+	border: 2px solid blue;
+}
+#noticia3{
+	
+	padding: 20px;
+	margin: 10px;
+	background-color: #ffffff;
+	border: 2px solid blue;
+}

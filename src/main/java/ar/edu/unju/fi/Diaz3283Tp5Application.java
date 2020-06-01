@@ -31,11 +31,12 @@ public class Diaz3283Tp5Application implements CommandLineRunner {
 		usuario.setFechaAltaUsuario(LocalDate.now());
 		usuario.setFechaNacimientoUsuario(LocalDate.of(1992, 04, 26));
 		usuario.setIdUsuario(1);
-		usuario.setNombreUsuario("Sebastián Darío");
+		usuario.setNombreUsuario("Sebastian Dario");
 		usuario.setPassword("Password");
 		usuario.setTipoUsuario("SOCIO");
 		
 		usuarioService.Guardar();
+		usuarioService.mostrar();
 	}
 
 }

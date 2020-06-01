@@ -8,14 +8,12 @@ import java.time.LocalDate;
 import org.springframework.stereotype.Component;
 
 /**
- * @author sebas
+ * 
+ * @author Diaz, Sebastián Darío - L.U.:3283
+ * Clase Noticia, representa a una noticia en el mundo real.
  *
  */
 @Component
-/**
- * Clase que representa a una noticia en el mundo real.
- *
- */
 public class Noticia {
 
 	//Atributo de tipo fecha que contiene la fecha de la noticia.

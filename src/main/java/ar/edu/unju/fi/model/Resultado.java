@@ -9,14 +9,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * @author sebas
- *
+ * 
+ * @author Diaz, Sebastián Darío - L.U.:3283
+ * Clase Resultado, representa a el resultado de un partido de futbol en el mundo real.
  */
 @Component
-/**
- * Clase Resultado, representa a el resultado de un partido de futbol en el mundo real.
- *
- */
 public class Resultado {
 
 	//Atributo de tipo fecha que guarda la fecha del resultado.

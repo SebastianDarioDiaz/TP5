@@ -7,15 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * @author sebas
- *
+ * 
+ * @author Diaz, Sebastián Darío - L.U.:3283
+ *Clase Equipo, representa a un equipo de futbol en la vida real.
  */
 @Component
-/**
- * Clase equipo, representa a un equipo de futbol en la vida real.
- * @author sebas
- *
- */
 public class Equipo {
 
 	//Atributo de tipo cadena que almacena el nombre del Equipo.
