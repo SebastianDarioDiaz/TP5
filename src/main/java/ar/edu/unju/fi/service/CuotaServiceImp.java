@@ -11,7 +11,7 @@ import ar.edu.unju.fi.repository.ICuota;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- *
+ * Clase CuotaServiceImp, implementa el servicio ICuotaService.
  */
 @Repository
 //Clase que se conecta con la BD.

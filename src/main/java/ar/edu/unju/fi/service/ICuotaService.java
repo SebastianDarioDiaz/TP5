@@ -7,7 +7,7 @@ import ar.edu.unju.fi.model.Cuota;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- * Interfaz ICuotaService, contiene los métodos que se pueden aplicar a la clase Cuota.
+ * Interfaz ICuotaService, servicio que contiene los métodos de la clase Cuota.
  */
 public interface ICuotaService {
 

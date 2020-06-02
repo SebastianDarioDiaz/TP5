@@ -11,7 +11,7 @@ import ar.edu.unju.fi.repository.IResultado;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- *
+ * Clase ResultadoServiceImp, implementa el servicio IResultadoService.
  */
 @Repository
 //Clase que se conecta con la BD.

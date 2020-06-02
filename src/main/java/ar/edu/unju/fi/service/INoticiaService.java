@@ -7,7 +7,7 @@ import ar.edu.unju.fi.model.Noticia;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- * Interfaz INoticiaService, contiene los métodos que se pueden aplicar a la clase Noticia.
+ * Interfaz INoticiaService, servicio que contiene los métodos que se pueden aplicar a la clase Noticia.
  */
 public interface INoticiaService {
 

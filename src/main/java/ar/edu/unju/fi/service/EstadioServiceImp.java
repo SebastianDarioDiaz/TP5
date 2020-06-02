@@ -11,7 +11,7 @@ import ar.edu.unju.fi.repository.IEstadio;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- *
+ * Clase EstadioServiceImp, implementa el servicio IEstadioService.
  */
 @Repository
 //Clase que se conecta con la BD.

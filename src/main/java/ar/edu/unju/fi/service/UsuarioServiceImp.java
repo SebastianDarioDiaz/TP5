@@ -11,7 +11,7 @@ import ar.edu.unju.fi.repository.IUsuario;
 
 /**
  * @author sebas
- * Clase IUsuarioServiceImp, está clase es la que puede implementar los métodos de la Interface IUsuarioService.
+ * Clase UsuarioServiceImp, implementa el servicio IUsuarioService.
  */
 @Repository
 //Clase que se conecta con la BD.

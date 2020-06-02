@@ -7,7 +7,7 @@ import ar.edu.unju.fi.model.Equipo;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- * Interfaz IEquipoService, contiene los métodos que se pueden aplicar a la clase Equipo.
+ * Interfaz IEquipoService, servicio que contiene los métodos de la clase Equipo.
  */
 public interface IEquipoService {
 

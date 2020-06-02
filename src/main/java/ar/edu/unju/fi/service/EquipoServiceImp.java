@@ -11,7 +11,7 @@ import ar.edu.unju.fi.repository.IEquipo;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- *
+ * Clase EquipoServiceImp, implementa el servicio ICuotaEquipo.
  */
 @Repository
 //Clase que se conecta con la BD.

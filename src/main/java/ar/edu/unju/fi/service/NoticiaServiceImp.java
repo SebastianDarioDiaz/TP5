@@ -11,7 +11,7 @@ import ar.edu.unju.fi.repository.INoticia;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- *
+ * Clase NoticiaServiceImp, implementa el servicio INoticiaService.
  */
 @Repository
 //Clase que se conecta con la BD.
