@@ -14,6 +14,7 @@ import ar.edu.unju.fi.repository.IUsuario;
  * Clase IUsuarioServiceImp, está clase es la que puede implementar los métodos de la Interface IUsuarioService.
  */
 @Repository
+//Clase que se conecta con la BD.
 public class UsuarioServiceImp implements IUsuarioService {
 
 	@Autowired

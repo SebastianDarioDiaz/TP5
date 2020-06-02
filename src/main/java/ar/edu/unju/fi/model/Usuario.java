@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
  *
  */
 @Component
+//Clase Bean administrado Usuario.
 public class Usuario {
 
 	//Atributo de tipo long que contien la clave principal del usuario.

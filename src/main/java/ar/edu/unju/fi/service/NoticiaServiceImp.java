@@ -14,6 +14,7 @@ import ar.edu.unju.fi.repository.INoticia;
  *
  */
 @Repository
+//Clase que se conecta con la BD.
 public class NoticiaServiceImp implements INoticiaService {
 
 	@Autowired

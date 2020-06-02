@@ -14,6 +14,7 @@ import ar.edu.unju.fi.repository.ICuota;
  *
  */
 @Repository
+//Clase que se conecta con la BD.
 public class CuotaServiceImp implements ICuotaService {
 
 	@Autowired

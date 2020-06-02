@@ -13,6 +13,7 @@ import org.springframework.stereotype.Component;
  * Clase Estadio, representa a un estadio de futbol en el mundo real.
  */
 @Component
+//Clase Bean administrado Estadio.
 public class Estadio {
 
 	//Atributo que guarda el nombre del estadio.

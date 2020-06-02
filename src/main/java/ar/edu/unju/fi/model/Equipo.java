@@ -12,11 +12,13 @@ import org.springframework.stereotype.Component;
  *Clase Equipo, representa a un equipo de futbol en la vida real.
  */
 @Component
+//Clase Bean administrado Equipo.
 public class Equipo {
 
 	//Atributo de tipo cadena que almacena el nombre del Equipo.
 	private String nombreEquipo;
 	@Autowired
+	//Inyección de dependencia hacia un objeto tipo Estadio.
 	//Atributo de tipo Estadio que representa el estadio donde jugó el equipo.
 	private Estadio estadioEquipo;
 	

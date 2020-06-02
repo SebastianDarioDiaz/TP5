@@ -13,7 +13,7 @@ import ar.edu.unju.fi.model.Noticia;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- *
+ * Clase INoticiaImp, está clase es la que puede implementar los métodos de la Interface INoticia.
  */
 @Repository("noticiaImp")
 public class NoticiaImp implements INoticia {

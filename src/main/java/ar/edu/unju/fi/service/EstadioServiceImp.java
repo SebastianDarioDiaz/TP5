@@ -14,6 +14,7 @@ import ar.edu.unju.fi.repository.IEstadio;
  *
  */
 @Repository
+//Clase que se conecta con la BD.
 public class EstadioServiceImp implements IEstadioService {
 
 	@Autowired

@@ -11,7 +11,7 @@ import ar.edu.unju.fi.model.Cuota;
  * Interfaz ICuota, contiene los métodos que se pueden aplicar a la clase Cuota.
  *
  */
-public interface ICuota {
+public interface ICuota  {
 
 	public void Guardar();
 	public Cuota mostrar();

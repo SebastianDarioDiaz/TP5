@@ -15,6 +15,7 @@ import org.springframework.stereotype.Component;
  *
  */
 @Component
+//Clase Bean administrado Cuota.
 public class Cuota {
 	//Atributo tipo long que representa al identificador de la clase.
 	private long idCuota;
@@ -27,6 +28,7 @@ public class Cuota {
 	// Atributo de tipo cadena que contendrá el estado de la cuota.
 	private String estadoCuota;
 	@Autowired
+	//Inyección de dependencia hacia un objeto tipo Usuario.
 	//Atributo de tipo Usuario que contiene la información del usuario que debe pagar la cuota.
 	private Usuario usuarioCuota;
 	

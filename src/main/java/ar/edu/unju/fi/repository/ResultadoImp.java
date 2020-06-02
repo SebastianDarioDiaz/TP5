@@ -13,7 +13,7 @@ import ar.edu.unju.fi.model.Resultado;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- *
+ * Clase IResultadoImp, está clase es la que puede implementar los métodos de la Interface IResultado.
  */
 @Repository("resultadoImp")
 public class ResultadoImp implements IResultado {

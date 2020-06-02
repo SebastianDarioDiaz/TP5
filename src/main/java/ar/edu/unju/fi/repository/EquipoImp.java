@@ -13,7 +13,7 @@ import ar.edu.unju.fi.model.Equipo;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- *
+ * Clase IEquipoImp, está clase es la que puede implementar los métodos de la Interface IEquipo.
  */
 @Repository("equipoImp")
 public class EquipoImp implements IEquipo {

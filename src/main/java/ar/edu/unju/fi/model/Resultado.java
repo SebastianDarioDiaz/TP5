@@ -14,14 +14,18 @@ import org.springframework.stereotype.Component;
  * Clase Resultado, representa a el resultado de un partido de futbol en el mundo real.
  */
 @Component
+//Clase Bean administrado Resultado.
 public class Resultado {
 
 	//Atributo de tipo fecha que guarda la fecha del resultado.
 	private LocalDate fechaResultado;
 	@Autowired
+	//Inyección de dependencia hacia un objeto tipo Equipo.
 	//Atributo de tipo Equipo que contiene información del primero equipo.
 	private Equipo equipo1;
+	
 	@Autowired
+	//Inyección de dependencia hacia un objeto tipo Equipo.
 	//Atributo de tipo Equipo que contiene información del segundo equipo.
 	private Equipo equipo2;
 	//Atributo de tipo entero que guarda la cantidad de goles hechas por el primer equipo durante el partido.

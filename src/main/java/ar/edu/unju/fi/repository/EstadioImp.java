@@ -12,7 +12,7 @@ import ar.edu.unju.fi.model.Estadio;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- *
+ * Clase IEstadioImp, está clase es la que puede implementar los métodos de la Interface IEstadio.
  */
 @Repository("estadioImp")
 public class EstadioImp implements IEstadio {

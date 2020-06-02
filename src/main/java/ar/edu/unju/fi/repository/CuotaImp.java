@@ -13,7 +13,7 @@ import ar.edu.unju.fi.model.Cuota;
 
 /**
  * @author Diaz, Sebastián Darío - L.U.:3283
- *
+ * Clase ICuotaoImp, está clase es la que puede implementar los métodos de la Interface ICuota.
  */
 @Repository("cuotaImp")
 public class CuotaImp implements ICuota {

@@ -14,6 +14,7 @@ import ar.edu.unju.fi.repository.IEquipo;
  *
  */
 @Repository
+//Clase que se conecta con la BD.
 public class EquipoServiceImp implements IEquipoService {
 
 	@Autowired

@@ -14,6 +14,7 @@ import org.springframework.stereotype.Component;
  *
  */
 @Component
+//Clase Bean administrada Noticia.
 public class Noticia {
 
 	//Atributo de tipo fecha que contiene la fecha de la noticia.

@@ -4,6 +4,7 @@
 package ar.edu.unju.fi.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import ar.edu.unju.fi.model.Resultado;
 import ar.edu.unju.fi.repository.IResultado;
@@ -12,8 +13,11 @@ import ar.edu.unju.fi.repository.IResultado;
  * @author Diaz, Sebastián Darío - L.U.:3283
  *
  */
+@Repository
+//Clase que se conecta con la BD.
 public class ResultadoServiceImp implements IResultadoService {
 
+	
 	@Autowired
 	private IResultado iresultado;
 	
